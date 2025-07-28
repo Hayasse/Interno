@@ -299,21 +299,21 @@ body {
   content: "";
   width: 24px;
   height: 16px;
-  background-image: url(images/arrow\(2\).png);
+  background-image: url(images/arrow.png);
   background-size: cover;
 }
 .links-link-2::after {
   content: "";
   width: 24px;
   height: 16px;
-  background-image: url(images/arrow\(2\).png);
+  background-image: url(images/arrow.png);
   background-size: cover;
 }
 .links-link-3::after {
   content: "";
   width: 24px;
   height: 16px;
-  background-image: url(images/arrow\(2\).png);
+  background-image: url(images/arrow.png);
   background-size: cover;
 }
 
