@@ -1,20 +1,15 @@
 :root {
-  --color1: #292f36;
-}
-:root {
-  --color2: #4d5053;
-}
-:root {
-  --color3: #cda274;
-}
-:root {
-  --color4: #f4f0ec;
-}
-:root {
-  --color5: #e7e7e7;
-}
-:root {
-  --color6: #e5e5e5;
+  --title-color: #292f36;
+
+  --text-color: #4d5053;
+
+  --number-color: #cda274;
+
+  --background-color: #f4f0ec;
+
+  --background-color-2: #E7E7E7;
+
+  --background-color-3: #e5e5e5;
 }
 html,
 body,
@@ -94,7 +89,7 @@ body {
 }
 .logo {
   background-image: url(images/logo.png);
-  color: var(--color1);
+  color: var(--title-color);
   width: 177px;
   height: 50px;
 }
@@ -105,54 +100,54 @@ body {
   gap: 30px;
 }
 .nav-items-1 {
-  color: var(--color1);
+  color: var(--title-color);
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.4px;
 }
 .nav-items-2 {
-  color: var(--color1);
+  color: var(--title-color);
   font-size: 19px;
   font-weight: 400;
   line-height: 1.57;
   letter-spacing: 0.4px;
 }
 .nav-items-3 {
-  color: var(--color1);
+  color: var(--title-color);
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.4px;
 }
 .nav-items-4 {
-  color: var(--color1);
+  color: var(--title-color);
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.4px;
 }
 .nav-items-5 {
-  color: var(--color1);
+  color: var(--title-color);
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.4px;
 }
 .nav-items-1:hover {
-  color: var(--color3);
+  color: var(--number-color);
 }
 .nav-items-2:hover {
-  color: var(--color3);
+  color: var(--number-color);
 }
 .nav-items-3:hover {
-  color: var(--color3);
+  color: var(--number-color);
 }
 .nav-items-4:hover {
-  color: var(--color3);
+  color: var(--number-color);
 }
 .nav-items-5:hover {
-  color: var(--color3);
+  color: var(--number-color);
 }
 .hero {
   display: flex;
@@ -165,7 +160,7 @@ body {
   align-items: center;
 }
 .hero-first {
-  color: var(--color1);
+  color: var(--title-color);
   width: 595px;
   font-family: "DM Serif Display";
   font-size: 80px;
@@ -176,7 +171,7 @@ body {
   padding-bottom: 19px;
 }
 .hero-text {
-  color: var(--color2);
+  color: var(--text-color);
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
@@ -192,7 +187,7 @@ body {
   height: 71px;
   display: block;
   padding: 22px 34px 22px 34px;
-  background-color: var(--color1);
+  background-color: var(--title-color);
   border-radius: 18px;
   border: 2px solid #292f36;
   margin-top: 35px;
@@ -217,7 +212,7 @@ body {
 }
 .links-title {
   padding-bottom: 17px;
-  color: var(--color1);
+  color: var(--title-color);
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 25px;
@@ -228,7 +223,7 @@ body {
 .links-text-1 {
   width: 317px;
   height: 99px;
-  color: var(--color2);
+  color: var(--text-color);
   text-align: center;
   font-size: 22px;
   font-weight: 400;
@@ -239,7 +234,7 @@ body {
   width: 297px;
   height: 99px;
   padding-bottom: 35px;
-  color: var(--color2);
+  color: var(--text-color);
   text-align: center;
   font-size: 22px;
   font-weight: 400;
@@ -251,7 +246,7 @@ body {
   width: 296px;
   height: 132px;
   padding-bottom: 35px;
-  color: var(--color2);
+  color: var(--text-color);
   text-align: center;
   font-size: 22px;
   font-weight: 400;
@@ -265,7 +260,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 6px;
-  color: var(--color2);
+  color: var(--text-color);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
@@ -279,7 +274,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 6px;
-  color: var(--color2);
+  color: var(--text-color);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
@@ -293,7 +288,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 6px;
-  color: var(--color2);
+  color: var(--text-color);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
@@ -331,7 +326,7 @@ body {
 .contacts-title {
   margin-top: 140px;
   width: 450px;
-  color: var(--color1);
+  color: var(--title-color);
   font-family: "DM Serif Display";
   font-size: 50px;
   font-weight: 400;
@@ -346,7 +341,7 @@ body {
 .contacts-span-1 {
   display: block;
   width: 531px;
-  color: var(--color2);
+  color: var(--text-color);
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
@@ -357,7 +352,7 @@ body {
   padding-bottom: 40px;
   display: block;
   width: 450px;
-  color: var(--color2);
+  color: var(--text-color);
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
@@ -389,7 +384,7 @@ body {
 .tel-item-1 {
   padding-left: 20px;
   width: 138px;
-  color: var(--color2);
+  color: var(--text-color);
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
@@ -397,7 +392,7 @@ body {
 }
 .tel-item-2 {
   padding-left: 20px;
-  color: var(--color2);
+  color: var(--text-color);
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
@@ -417,7 +412,7 @@ body {
   height: 73px;
   display: block;
   padding: 22px 34px 22px 34px;
-  background-color: var(--color1);
+  background-color: var(--title-color);
   border-radius: 18px;
   border: 2px solid #292f36;
   margin-top: 35px;
