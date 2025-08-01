@@ -11,6 +11,9 @@
 
   --background-color-3: #e5e5e5;
 }
+address {
+  font-style: normal;
+}
 html,
 body,
 p,
@@ -93,8 +96,6 @@ body {
   width: 177px;
   height: 50px;
 }
-.nav {
-}
 .nav-list {
   display: flex;
   gap: 30px;
@@ -152,7 +153,6 @@ body {
 .hero {
   display: flex;
   border-radius: 0px 0px 0px 290px;
-  max-width: 1600px;
   height: 831px;
   background-image: url(images/hero.png);
   background-repeat: no-repeat;
@@ -204,8 +204,8 @@ body {
   width: 400px;
   height: 395px;
   padding-top: 75px;
-  padding-left: 42px;
-  padding-right: 41px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .links-title {
   padding-bottom: 17px;
@@ -218,8 +218,6 @@ body {
   letter-spacing: 0.22px;
 }
 .links-text-1 {
-  width: 317px;
-  height: 99px;
   color: var(--text-color);
   text-align: center;
   font-size: 22px;
@@ -228,9 +226,6 @@ body {
   letter-spacing: 0.22px;
 }
 .links-text-2 {
-  width: 297px;
-  height: 99px;
-  padding-bottom: 35px;
   color: var(--text-color);
   text-align: center;
   font-size: 22px;
@@ -240,8 +235,6 @@ body {
 }
 .links-text-3 {
   position: relative;
-  width: 296px;
-  height: 132px;
   padding-bottom: 35px;
   color: var(--text-color);
   text-align: center;
@@ -266,7 +259,7 @@ body {
 }
 .links-link-2 {
   position: relative;
-  padding-top: 35px;
+  padding-top: 68px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -576,7 +569,6 @@ body {
   align-items: flex-start;
 }
 .project-list-title {
-  padding-right: 225px;
   padding-top: 24px;
   color: var(--title-color);
   font-family: "DM Serif Display";
@@ -594,15 +586,11 @@ body {
   letter-spacing: 0.22px;
 }
 
-.project-link {
-}
 .project-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.project-div-2 {
+  width: 100%;
 }
 .project-div-3 {
   width: 70px;
@@ -610,7 +598,6 @@ body {
 }
 .project-list-title-2 {
   padding-top: 24px;
-  padding-right: 195px;
   color: var(--title-color);
   font-family: "DM Serif Display";
   font-size: 24px;
@@ -873,7 +860,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-.blog-list-title-1{
+.blog-list-title-1 {
   width: 354px;
   padding-left: 21px;
   color: var(--title-color);
@@ -883,7 +870,7 @@ body {
   line-height: 1.4;
   letter-spacing: 0.5px;
 }
-.blog-list-title-2{
+.blog-list-title-2 {
   width: 357px;
   padding-left: 21px;
   color: var(--title-color);
@@ -893,7 +880,7 @@ body {
   line-height: 1.4;
   letter-spacing: 0.5px;
 }
-.blog-list-title-3{
+.blog-list-title-3 {
   width: 355px;
   padding-left: 21px;
   color: var(--title-color);
@@ -903,7 +890,7 @@ body {
   line-height: 1.4;
   letter-spacing: 0.5px;
 }
-.blog-list-title-4{
+.blog-list-title-4 {
   width: 321px;
   padding-left: 21px;
   color: var(--title-color);
@@ -913,7 +900,7 @@ body {
   line-height: 1.4;
   letter-spacing: 0.5px;
 }
-.blog-list-title-5{
+.blog-list-title-5 {
   width: 309px;
   padding-left: 21px;
   color: var(--title-color);
@@ -923,7 +910,7 @@ body {
   line-height: 1.4;
   letter-spacing: 0.5px;
 }
-.blog-list-title-6{
+.blog-list-title-6 {
   width: 312px;
   padding-left: 21px;
   color: var(--title-color);
@@ -954,3 +941,131 @@ body {
   padding-right: 21px;
 }
 
+.contact {
+  margin-top: 141px;
+  height: 414px;
+  border-radius: 70px;
+  background: var(--title-color);
+}
+
+.contact-title {
+  padding-top: 100px;
+  color: #fff;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.contact-text {
+  padding-top: 9px;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 31px;
+  width: 241px;
+  height: 71px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  background-color: var(--number-color);
+  border-radius: 18px;
+}
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.links {
+  column-gap: 16px;
+  margin-top: 79px;
+  display: flex;
+  padding-top: 50px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.footer-logo {
+  width: 393.359px;
+}
+.logo-text {
+  margin-top: 15px;
+  width: 326px;
+  color: var(--text-color);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+.socials {
+  margin-top: 29px;
+  width: 120px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-links {
+  width: 210.719px;
+  row-gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-links-title {
+  color: var(--title-color);
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+.footer-links-link {
+  color: var(--text-color);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+.links > address {
+  width: 337.156px;
+}
+.footer {
+  column-gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 104px;
+}
+.footer-text {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+.footer-link {
+  color: var(--number-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+.border {
+  margin-top: 111px;
+  height: 1px;
+  background: var(--background-color-3);
+}
