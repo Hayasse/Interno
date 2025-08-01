@@ -159,7 +159,7 @@ body {
   background-size: cover;
   align-items: center;
 }
-.hero-first {
+.hero-title {
   color: var(--title-color);
   width: 595px;
   font-family: "DM Serif Display";
@@ -192,10 +192,7 @@ body {
   border: 2px solid #292f36;
   margin-top: 35px;
 }
-.hero-link::after {
-}
-.links {
-}
+
 .links-list {
   display: flex;
   height: 395px;
